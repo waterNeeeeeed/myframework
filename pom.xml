@@ -57,7 +57,7 @@
         <!-- Apache Commons Lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang</artifactId>
+            <artifactId>commons-lang3</artifactId>
             <version>3.3.2</version>
         </dependency>
         <dependency>
@@ -88,4 +88,7 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+    </build>
 </project>
